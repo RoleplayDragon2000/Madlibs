@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Input = (title) => {
+const input = (title) => {
     return (
         <div className="input">
-            <imput/>
+            <input/>
             <label>{title}</label>
         </div>   
     )

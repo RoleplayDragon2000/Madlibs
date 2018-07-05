@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import header from './header';
+import card from './card';
 
-import Header from './header';
-
-export default class Home extends Component {
+export default class home extends Component {
   render() {
     return (
-      <div classname="home">
-      { Header()}
+      <div className="home">
+      { header()}
+      {card}
       </div> 
     );
   }
